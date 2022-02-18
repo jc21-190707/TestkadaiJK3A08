@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Test001
 {
@@ -21,7 +19,7 @@ namespace Test001
                 int count = 0;
                 for(int i = 0; i < g.Length; i++)
                 {
-                    if(k > g[i])
+                    if(k >= g[i])
                     {
                         k = k - g[i];
                         goukei = goukei + g[i];
